@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91FFD4FE2BAB3A9100590673 /* haikuAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD4FD2BAB3A9100590673 /* haikuAIApp.swift */; };
+		91FFD5002BAB3A9100590673 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD4FF2BAB3A9100590673 /* ContentView.swift */; };
+		91FFD5022BAB3A9200590673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FFD5012BAB3A9200590673 /* Assets.xcassets */; };
+		91FFD5062BAB3A9200590673 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FFD5052BAB3A9200590673 /* Preview Assets.xcassets */; };
+		91FFD5102BAB3A9200590673 /* haikuAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD50F2BAB3A9200590673 /* haikuAITests.swift */; };
+		91FFD51A2BAB3A9200590673 /* haikuAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD5192BAB3A9200590673 /* haikuAIUITests.swift */; };
+		91FFD51C2BAB3A9200590673 /* haikuAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD51B2BAB3A9200590673 /* haikuAIUITestsLaunchTests.swift */; };
+		91FFD52D2BAB4F5100590673 /* Haiku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD52C2BAB4F5100590673 /* Haiku.swift */; };
+		91FFD5302BAB4F8800590673 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD52F2BAB4F8800590673 /* MainView.swift */; };
+		91FFD5322BAB4F9700590673 /* HaikuInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD5312BAB4F9700590673 /* HaikuInputView.swift */; };
+		91FFD5342BAB4FA200590673 /* HaikuDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD5332BAB4FA200590673 /* HaikuDisplayView.swift */; };
+		91FFD5362BAB4FAA00590673 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD5352BAB4FAA00590673 /* SubscriptionView.swift */; };
+		91FFD5382BAB4FB600590673 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD5372BAB4FB600590673 /* HistoryView.swift */; };
+		91FFD53B2BAB502500590673 /* HaikuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD53A2BAB502500590673 /* HaikuViewModel.swift */; };
+		91FFD53E2BAB503700590673 /* HaikuGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD53D2BAB503700590673 /* HaikuGenerator.swift */; };
+		91FFD5402BAB504000590673 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD53F2BAB504000590673 /* SubscriptionManager.swift */; };
+		91FFD5422BAB504900590673 /* AdvertisementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD5412BAB504900590673 /* AdvertisementManager.swift */; };
+		91FFD5452BAB505D00590673 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD5442BAB505D00590673 /* Constants.swift */; };
+		91FFD5472BAB506700590673 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD5462BAB506700590673 /* Extensions.swift */; };
+		91FFD54B2BAB599F00590673 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD54A2BAB599F00590673 /* SettingsView.swift */; };
+		91FFD54D2BAB59BE00590673 /* GeneratedHaikuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD54C2BAB59BE00590673 /* GeneratedHaikuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91FFD50C2BAB3A9200590673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FFD4F22BAB3A9100590673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FFD4F92BAB3A9100590673;
+			remoteInfo = haikuAI;
+		};
+		91FFD5162BAB3A9200590673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FFD4F22BAB3A9100590673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FFD4F92BAB3A9100590673;
+			remoteInfo = haikuAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91FFD4FA2BAB3A9100590673 /* haikuAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haikuAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FFD4FD2BAB3A9100590673 /* haikuAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haikuAIApp.swift; sourceTree = "<group>"; };
+		91FFD4FF2BAB3A9100590673 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91FFD5012BAB3A9200590673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91FFD5032BAB3A9200590673 /* haikuAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = haikuAI.entitlements; sourceTree = "<group>"; };
+		91FFD5052BAB3A9200590673 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91FFD50B2BAB3A9200590673 /* haikuAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = haikuAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FFD50F2BAB3A9200590673 /* haikuAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haikuAITests.swift; sourceTree = "<group>"; };
+		91FFD5152BAB3A9200590673 /* haikuAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = haikuAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FFD5192BAB3A9200590673 /* haikuAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haikuAIUITests.swift; sourceTree = "<group>"; };
+		91FFD51B2BAB3A9200590673 /* haikuAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haikuAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91FFD52C2BAB4F5100590673 /* Haiku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haiku.swift; sourceTree = "<group>"; };
+		91FFD52F2BAB4F8800590673 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		91FFD5312BAB4F9700590673 /* HaikuInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaikuInputView.swift; sourceTree = "<group>"; };
+		91FFD5332BAB4FA200590673 /* HaikuDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaikuDisplayView.swift; sourceTree = "<group>"; };
+		91FFD5352BAB4FAA00590673 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		91FFD5372BAB4FB600590673 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		91FFD53A2BAB502500590673 /* HaikuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaikuViewModel.swift; sourceTree = "<group>"; };
+		91FFD53D2BAB503700590673 /* HaikuGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaikuGenerator.swift; sourceTree = "<group>"; };
+		91FFD53F2BAB504000590673 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		91FFD5412BAB504900590673 /* AdvertisementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementManager.swift; sourceTree = "<group>"; };
+		91FFD5442BAB505D00590673 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		91FFD5462BAB506700590673 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		91FFD54A2BAB599F00590673 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		91FFD54C2BAB59BE00590673 /* GeneratedHaikuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedHaikuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FFD4F72BAB3A9100590673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FFD5082BAB3A9200590673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FFD5122BAB3A9200590673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91FFD4F12BAB3A9100590673 = {
+			isa = PBXGroup;
+			children = (
+				91FFD4FC2BAB3A9100590673 /* haikuAI */,
+				91FFD50E2BAB3A9200590673 /* haikuAITests */,
+				91FFD5182BAB3A9200590673 /* haikuAIUITests */,
+				91FFD4FB2BAB3A9100590673 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91FFD4FB2BAB3A9100590673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD4FA2BAB3A9100590673 /* haikuAI.app */,
+				91FFD50B2BAB3A9200590673 /* haikuAITests.xctest */,
+				91FFD5152BAB3A9200590673 /* haikuAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FFD4FC2BAB3A9100590673 /* haikuAI */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD5282BAB4EF800590673 /* src */,
+				91FFD4FD2BAB3A9100590673 /* haikuAIApp.swift */,
+				91FFD4FF2BAB3A9100590673 /* ContentView.swift */,
+				91FFD5012BAB3A9200590673 /* Assets.xcassets */,
+				91FFD5032BAB3A9200590673 /* haikuAI.entitlements */,
+				91FFD5042BAB3A9200590673 /* Preview Content */,
+			);
+			path = haikuAI;
+			sourceTree = "<group>";
+		};
+		91FFD5042BAB3A9200590673 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD5052BAB3A9200590673 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91FFD50E2BAB3A9200590673 /* haikuAITests */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD50F2BAB3A9200590673 /* haikuAITests.swift */,
+			);
+			path = haikuAITests;
+			sourceTree = "<group>";
+		};
+		91FFD5182BAB3A9200590673 /* haikuAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD5192BAB3A9200590673 /* haikuAIUITests.swift */,
+				91FFD51B2BAB3A9200590673 /* haikuAIUITestsLaunchTests.swift */,
+			);
+			path = haikuAIUITests;
+			sourceTree = "<group>";
+		};
+		91FFD5282BAB4EF800590673 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD5432BAB505400590673 /* Utilities */,
+				91FFD53C2BAB502E00590673 /* Services */,
+				91FFD5392BAB501900590673 /* ViewModels */,
+				91FFD52E2BAB4F6E00590673 /* Views */,
+				91FFD5292BAB4F1200590673 /* Models */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		91FFD5292BAB4F1200590673 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD52C2BAB4F5100590673 /* Haiku.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		91FFD52E2BAB4F6E00590673 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD52F2BAB4F8800590673 /* MainView.swift */,
+				91FFD5312BAB4F9700590673 /* HaikuInputView.swift */,
+				91FFD54C2BAB59BE00590673 /* GeneratedHaikuView.swift */,
+				91FFD5332BAB4FA200590673 /* HaikuDisplayView.swift */,
+				91FFD5352BAB4FAA00590673 /* SubscriptionView.swift */,
+				91FFD54A2BAB599F00590673 /* SettingsView.swift */,
+				91FFD5372BAB4FB600590673 /* HistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91FFD5392BAB501900590673 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD53A2BAB502500590673 /* HaikuViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		91FFD53C2BAB502E00590673 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD53D2BAB503700590673 /* HaikuGenerator.swift */,
+				91FFD53F2BAB504000590673 /* SubscriptionManager.swift */,
+				91FFD5412BAB504900590673 /* AdvertisementManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		91FFD5432BAB505400590673 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD5442BAB505D00590673 /* Constants.swift */,
+				91FFD5462BAB506700590673 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FFD4F92BAB3A9100590673 /* haikuAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FFD51F2BAB3A9200590673 /* Build configuration list for PBXNativeTarget "haikuAI" */;
+			buildPhases = (
+				91FFD4F62BAB3A9100590673 /* Sources */,
+				91FFD4F72BAB3A9100590673 /* Frameworks */,
+				91FFD4F82BAB3A9100590673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = haikuAI;
+			productName = haikuAI;
+			productReference = 91FFD4FA2BAB3A9100590673 /* haikuAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91FFD50A2BAB3A9200590673 /* haikuAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FFD5222BAB3A9200590673 /* Build configuration list for PBXNativeTarget "haikuAITests" */;
+			buildPhases = (
+				91FFD5072BAB3A9200590673 /* Sources */,
+				91FFD5082BAB3A9200590673 /* Frameworks */,
+				91FFD5092BAB3A9200590673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FFD50D2BAB3A9200590673 /* PBXTargetDependency */,
+			);
+			name = haikuAITests;
+			productName = haikuAITests;
+			productReference = 91FFD50B2BAB3A9200590673 /* haikuAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91FFD5142BAB3A9200590673 /* haikuAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FFD5252BAB3A9200590673 /* Build configuration list for PBXNativeTarget "haikuAIUITests" */;
+			buildPhases = (
+				91FFD5112BAB3A9200590673 /* Sources */,
+				91FFD5122BAB3A9200590673 /* Frameworks */,
+				91FFD5132BAB3A9200590673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FFD5172BAB3A9200590673 /* PBXTargetDependency */,
+			);
+			name = haikuAIUITests;
+			productName = haikuAIUITests;
+			productReference = 91FFD5152BAB3A9200590673 /* haikuAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FFD4F22BAB3A9100590673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					91FFD4F92BAB3A9100590673 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					91FFD50A2BAB3A9200590673 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 91FFD4F92BAB3A9100590673;
+					};
+					91FFD5142BAB3A9200590673 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 91FFD4F92BAB3A9100590673;
+					};
+				};
+			};
+			buildConfigurationList = 91FFD4F52BAB3A9100590673 /* Build configuration list for PBXProject "haikuAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FFD4F12BAB3A9100590673;
+			productRefGroup = 91FFD4FB2BAB3A9100590673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FFD4F92BAB3A9100590673 /* haikuAI */,
+				91FFD50A2BAB3A9200590673 /* haikuAITests */,
+				91FFD5142BAB3A9200590673 /* haikuAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FFD4F82BAB3A9100590673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FFD5062BAB3A9200590673 /* Preview Assets.xcassets in Resources */,
+				91FFD5022BAB3A9200590673 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FFD5092BAB3A9200590673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FFD5132BAB3A9200590673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FFD4F62BAB3A9100590673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FFD54B2BAB599F00590673 /* SettingsView.swift in Sources */,
+				91FFD5402BAB504000590673 /* SubscriptionManager.swift in Sources */,
+				91FFD53E2BAB503700590673 /* HaikuGenerator.swift in Sources */,
+				91FFD5002BAB3A9100590673 /* ContentView.swift in Sources */,
+				91FFD5422BAB504900590673 /* AdvertisementManager.swift in Sources */,
+				91FFD5382BAB4FB600590673 /* HistoryView.swift in Sources */,
+				91FFD53B2BAB502500590673 /* HaikuViewModel.swift in Sources */,
+				91FFD5302BAB4F8800590673 /* MainView.swift in Sources */,
+				91FFD5452BAB505D00590673 /* Constants.swift in Sources */,
+				91FFD52D2BAB4F5100590673 /* Haiku.swift in Sources */,
+				91FFD4FE2BAB3A9100590673 /* haikuAIApp.swift in Sources */,
+				91FFD5342BAB4FA200590673 /* HaikuDisplayView.swift in Sources */,
+				91FFD5362BAB4FAA00590673 /* SubscriptionView.swift in Sources */,
+				91FFD5322BAB4F9700590673 /* HaikuInputView.swift in Sources */,
+				91FFD5472BAB506700590673 /* Extensions.swift in Sources */,
+				91FFD54D2BAB59BE00590673 /* GeneratedHaikuView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FFD5072BAB3A9200590673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FFD5102BAB3A9200590673 /* haikuAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FFD5112BAB3A9200590673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FFD51A2BAB3A9200590673 /* haikuAIUITests.swift in Sources */,
+				91FFD51C2BAB3A9200590673 /* haikuAIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91FFD50D2BAB3A9200590673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FFD4F92BAB3A9100590673 /* haikuAI */;
+			targetProxy = 91FFD50C2BAB3A9200590673 /* PBXContainerItemProxy */;
+		};
+		91FFD5172BAB3A9200590673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FFD4F92BAB3A9100590673 /* haikuAI */;
+			targetProxy = 91FFD5162BAB3A9200590673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91FFD51D2BAB3A9200590673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91FFD51E2BAB3A9200590673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		91FFD5202BAB3A9200590673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = haikuAI/haikuAI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"haikuAI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ShinyaMakita.haikuAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		91FFD5212BAB3A9200590673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = haikuAI/haikuAI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"haikuAI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ShinyaMakita.haikuAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		91FFD5232BAB3A9200590673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ShinyaMakita.haikuAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haikuAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/haikuAI";
+			};
+			name = Debug;
+		};
+		91FFD5242BAB3A9200590673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ShinyaMakita.haikuAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haikuAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/haikuAI";
+			};
+			name = Release;
+		};
+		91FFD5262BAB3A9200590673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ShinyaMakita.haikuAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = haikuAI;
+			};
+			name = Debug;
+		};
+		91FFD5272BAB3A9200590673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ShinyaMakita.haikuAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = haikuAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FFD4F52BAB3A9100590673 /* Build configuration list for PBXProject "haikuAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FFD51D2BAB3A9200590673 /* Debug */,
+				91FFD51E2BAB3A9200590673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FFD51F2BAB3A9200590673 /* Build configuration list for PBXNativeTarget "haikuAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FFD5202BAB3A9200590673 /* Debug */,
+				91FFD5212BAB3A9200590673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FFD5222BAB3A9200590673 /* Build configuration list for PBXNativeTarget "haikuAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FFD5232BAB3A9200590673 /* Debug */,
+				91FFD5242BAB3A9200590673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FFD5252BAB3A9200590673 /* Build configuration list for PBXNativeTarget "haikuAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FFD5262BAB3A9200590673 /* Debug */,
+				91FFD5272BAB3A9200590673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FFD4F22BAB3A9100590673 /* Project object */;
+}
