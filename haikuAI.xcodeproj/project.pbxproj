@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91C6F1D32BB06FE800648C9B /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C6F1D22BB06FE800648C9B /* BlurView.swift */; };
 		91FFD4FE2BAB3A9100590673 /* haikuAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD4FD2BAB3A9100590673 /* haikuAIApp.swift */; };
 		91FFD5002BAB3A9100590673 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD4FF2BAB3A9100590673 /* ContentView.swift */; };
 		91FFD5022BAB3A9200590673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FFD5012BAB3A9200590673 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91C6F1D22BB06FE800648C9B /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		91FFD4FA2BAB3A9100590673 /* haikuAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haikuAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FFD4FD2BAB3A9100590673 /* haikuAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haikuAIApp.swift; sourceTree = "<group>"; };
 		91FFD4FF2BAB3A9100590673 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 			children = (
 				91FFD5442BAB505D00590673 /* Constants.swift */,
 				91FFD5462BAB506700590673 /* Extensions.swift */,
+				91C6F1D22BB06FE800648C9B /* BlurView.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				91FFD4FE2BAB3A9100590673 /* haikuAIApp.swift in Sources */,
 				91FFD5342BAB4FA200590673 /* HaikuDisplayView.swift in Sources */,
 				91FFD5362BAB4FAA00590673 /* SubscriptionView.swift in Sources */,
+				91C6F1D32BB06FE800648C9B /* BlurView.swift in Sources */,
 				91FFD5322BAB4F9700590673 /* HaikuInputView.swift in Sources */,
 				91FFD5472BAB506700590673 /* Extensions.swift in Sources */,
 				91FFD54D2BAB59BE00590673 /* GeneratedHaikuView.swift in Sources */,
